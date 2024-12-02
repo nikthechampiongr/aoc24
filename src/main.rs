@@ -25,7 +25,7 @@ fn main() {
         .wait()
         .unwrap()
         .code()
-        .unwrap()
+        .expect("Terminated by signal")
         != 0
     {
         eprintln!("Running solution returned failure code.");
