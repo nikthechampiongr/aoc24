@@ -1,7 +1,7 @@
 use std::io::Write;
 
 fn main() {
-    print!("Please enter day:");
+    print!("Please enter day: ");
     std::io::stdout().flush().unwrap();
     let mut buf = String::new();
     std::io::stdin()
@@ -9,7 +9,7 @@ fn main() {
         .expect("Failed to read from stdin. How?");
     let num: u8 = buf.trim().parse().expect("Input is not a number");
 
-    let path = format!("../day_{num}");
+    let path = format!("days/day_{num}");
     if !std::fs::exists(&path).expect("Failed to determine whether day exists.") {
         eprintln!("Day not found.");
         std::process::exit(1);
