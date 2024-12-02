@@ -1,4 +1,4 @@
-All code licensed under the EUPL-1.2 or later because I felt like it.
+All code licensed under the EUPL-1.2 because I felt like it.
 
 My attempt at 2024 advent of code.
 

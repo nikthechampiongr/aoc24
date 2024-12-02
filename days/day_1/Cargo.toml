@@ -1,6 +1,8 @@
 [package]
-name = "day_1"
+name = "runner"
 version = "0.1.0"
 edition = "2021"
+authors = ["nikthechampiongr"]
+License = "EUPL-1.2"
 
 [dependencies]
