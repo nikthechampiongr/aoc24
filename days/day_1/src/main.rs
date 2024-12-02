@@ -21,7 +21,7 @@ fn main() {
     for i in 0..list1.len() {
         total += list1[i].abs_diff(list2[i]);
     }
-    println!("{total}");
+    println!("Total distance: {total}");
 
     let mut similar = 0;
 
@@ -40,5 +40,5 @@ fn main() {
         similar += prev_inc;
     }
 
-    println!("{similar}");
+    println!("Similarity score: {similar}");
 }
