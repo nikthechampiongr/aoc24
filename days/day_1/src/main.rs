@@ -1,13 +1,9 @@
-use std::io::Read;
-
 fn main() {
     let mut total = 0;
 
     let mut list1: Vec<u32> = Vec::new();
     let mut list2: Vec<u32> = Vec::new();
-    let mut input = std::fs::File::open("input.txt").unwrap();
-    let mut buf = String::new();
-    input.read_to_string(&mut buf).unwrap();
+    let buf = common::read_input();
 
     for line in buf.lines() {
         let mut split = line.split_whitespace();
