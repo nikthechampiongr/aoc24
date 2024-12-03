@@ -1,0 +1,10 @@
+[package]
+name = "day_3"
+version = "0.1.0"
+edition = "2021"
+authors = ["nikthechampiongr"]
+license = "EUPL-1.2"
+
+[dependencies]
+
+common = {path = "../common"}
